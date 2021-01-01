@@ -69,16 +69,16 @@ iframe {
 
 
 #cover-art {
-    top: 0%;
-
+    left:10%;
+    top: 20%;
     width: 80%;
-    left: 20%;
-    height: 100%;
+    height: 80%;
     background-image: url(./imgs/TPLCover.png);
     background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     position: absolute;
-    z-index: 3;
+    z-index: 11;
     font-size: 72px;
     /*        background-position: center;
 */
@@ -98,7 +98,7 @@ iframe {
 font-family: 'Just Me Again Down Here', cursive;
   /*  font-family: 'Unlock', cursive;*/
     font-size: 40px;
-    z-index:2;
+    z-index:10;
 }
 
 .bar-text{
@@ -108,6 +108,7 @@ font-family: 'Just Me Again Down Here', cursive;
     display: inline-block;
     width:30%;
     height:100%;
+    z-index: 10;
 }
 
 #disclaimer {
